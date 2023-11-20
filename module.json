@@ -1,0 +1,28 @@
+{
+    "id": "foundry-mm3-healing",
+    "title": "MM3 Healing",
+    "description": "A module to help automate healing in Mutants & Masterminds 3e",
+    "authors": [
+      {
+      "name": "rrhein2"
+      }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    },
+    "relationships": {
+        "systems": [{
+            "id": "mutants-and-masterminds-3e",
+            "type": "system",
+            "manifest": "https://github.com/Zakarik/foundry-mm3/blob/main/system.json",
+            "compatibility": {
+                "verified": "1.27.1"
+            }
+        }]
+    },
+    "system": ["mutants-and-masterminds-3e"],
+    "readme": "https://raw.githubusercontent.com/rrhein2/foundry-mm2-healing/main/README.md",
+    "download": "https://github.com/rrhein2/foundry-mm2-healing/archive/refs/heads/main.zip"
+  }
