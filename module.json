@@ -22,7 +22,12 @@
             }
         }]
     },
-    "esmodules": ["scripts/healing.js"],
+    "esmodules": [
+      "scripts/healing.js"
+    ],
+    "styles": [
+      "styles/healing.css"
+    ],
     "system": ["mutants-and-masterminds-3e"],
     "readme": "https://raw.githubusercontent.com/rrhein2/foundry-mm2-healing/main/README.md",
     "download": "https://github.com/rrhein2/foundry-mm2-healing/archive/refs/heads/main.zip"
